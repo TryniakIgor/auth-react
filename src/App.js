@@ -13,7 +13,7 @@ import ProtectedRoutes from "./Services/ProtectedRoutes";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="auth-react">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
@@ -27,7 +27,7 @@ const App = () => {
             <Route path="/post/:postId" element={<PostDetails />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter >
 
     </>
   );
