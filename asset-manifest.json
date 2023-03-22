@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/auth-react/static/css/main.75c4d13f.css",
+    "main.js": "/auth-react/static/js/main.c27a42c0.js",
+    "index.html": "/auth-react/index.html",
+    "main.75c4d13f.css.map": "/auth-react/static/css/main.75c4d13f.css.map",
+    "main.c27a42c0.js.map": "/auth-react/static/js/main.c27a42c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75c4d13f.css",
+    "static/js/main.c27a42c0.js"
+  ]
+}
