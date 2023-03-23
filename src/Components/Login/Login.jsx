@@ -34,7 +34,7 @@ export const Login = () => {
   return (
     <div className="container">
       <form onSubmit={handleLogin}>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name">Email:</label>
         <input
           type="text"
           id="name"
