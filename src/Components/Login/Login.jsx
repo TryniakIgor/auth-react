@@ -11,9 +11,9 @@ export const Login = () => {
 
   useEffect(() => {
     const localUser = JSON.parse(localStorage.getItem("user"));
-    if (!localUser) {
-      navigate("/register");
-    }
+    // if (!localUser) {
+    //   navigate("/register");
+    // }
   }, []);
 
   console.log();
@@ -21,7 +21,10 @@ export const Login = () => {
     e.preventDefault();
 
     const localUser = JSON.parse(localStorage.getItem("user"));
-    if (
+    if (!localUser) {
+      navigate("/register");
+      alert("First register please");
+    } else if (
       input.email === localUser.email &&
       input.password === localUser.password
     ) {
